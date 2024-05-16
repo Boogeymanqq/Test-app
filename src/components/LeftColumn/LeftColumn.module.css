@@ -1,0 +1,42 @@
+.root {
+	width: 250px;
+	border: 1px solid black;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.block {
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+}
+
+.list {
+	display: flex;
+	gap: 10px;
+}
+
+.blockItem {
+	display: flex;
+	flex-direction: column;
+	row-gap: 10px;
+}
+
+.item {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 45px;
+}
+
+.blockSquare {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.arrow {
+	transform: rotate(270deg);
+}
